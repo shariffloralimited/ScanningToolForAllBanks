@@ -1,0 +1,7 @@
+bin\Debug\TabStripControlLibrary.dll
+bin\Debug\TabStripControlLibrary.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+obj\Debug\TabStripControlLibrary.dll
+obj\Debug\TabStripControlLibrary.pdb
+obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources

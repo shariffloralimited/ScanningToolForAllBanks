@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetAccountInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAccountInfoResult" type="tns:AccountInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AccountInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="accountno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="customername" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="currency" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="availablebalance" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reservedbalance" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="blocked" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="inactive" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="closing" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="decOrLiq" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="type" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAccountInfoForCPS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountInfoForCPSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAccountInfoForCPSResult" type="tns:AccountResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AccountResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="AccountInfo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="StopPayment" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetSignatories">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSignatoriesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSignatoriesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSignature">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="icref" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSignatureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSignatureResult" type="tns:RetData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RetData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ImageData" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SPINST" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetAccountInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAccountInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAccountInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountInfoForCPSSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAccountInfoForCPS" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountInfoForCPSSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAccountInfoForCPSResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSignatoriesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSignatories" />
+  </wsdl:message>
+  <wsdl:message name="GetSignatoriesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSignatoriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSignatureSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSignature" />
+  </wsdl:message>
+  <wsdl:message name="GetSignatureSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSignatureResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service1Soap">
+    <wsdl:operation name="GetAccountInfo">
+      <wsdl:input message="tns:GetAccountInfoSoapIn" />
+      <wsdl:output message="tns:GetAccountInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountInfoForCPS">
+      <wsdl:input message="tns:GetAccountInfoForCPSSoapIn" />
+      <wsdl:output message="tns:GetAccountInfoForCPSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSignatories">
+      <wsdl:input message="tns:GetSignatoriesSoapIn" />
+      <wsdl:output message="tns:GetSignatoriesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSignature">
+      <wsdl:input message="tns:GetSignatureSoapIn" />
+      <wsdl:output message="tns:GetSignatureSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service1Soap" type="tns:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAccountInfo">
+      <soap:operation soapAction="http://tempuri.org/GetAccountInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountInfoForCPS">
+      <soap:operation soapAction="http://tempuri.org/GetAccountInfoForCPS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSignatories">
+      <soap:operation soapAction="http://tempuri.org/GetSignatories" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSignature">
+      <soap:operation soapAction="http://tempuri.org/GetSignature" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1Soap12" type="tns:Service1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAccountInfo">
+      <soap12:operation soapAction="http://tempuri.org/GetAccountInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountInfoForCPS">
+      <soap12:operation soapAction="http://tempuri.org/GetAccountInfoForCPS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSignatories">
+      <soap12:operation soapAction="http://tempuri.org/GetSignatories" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSignature">
+      <soap12:operation soapAction="http://tempuri.org/GetSignature" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="Service1Soap" binding="tns:Service1Soap">
+      <soap:address location="http://localhost/FloraRTGSWS/Service1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1Soap12" binding="tns:Service1Soap12">
+      <soap12:address location="http://localhost/FloraRTGSWS/Service1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,109 @@
+E:\FloraCPS Tools 03 03 2011\FCPA 02 02 2011\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+E:\FloraCPS Tools 03 03 2011\FCPA 02 02 2011\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+E:\FloraCPS Tools 03 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\FloraCPS Tools 03 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+E:\FloraCPS Tools 03 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+E:\FloraCPS Tools 03 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+E:\FloraCPS Tools 03 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+D:\My Work Directory\FloraCPS Tools 03 03 2011\FCPA 02 02 2011\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+D:\My Work Directory\FloraCPS Tools 03 03 2011\FCPA 02 02 2011\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+D:\My Work Directory\FloraCPS Tools 03 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\My Work Directory\FloraCPS Tools 03 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+D:\My Work Directory\FloraCPS Tools 03 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+D:\My Work Directory\FloraCPS Tools 03 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+D:\My Work Directory\FloraCPS Tools 03 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+G:\My Work Directory\FloraCPS Tools 19 03 2011\FCPA 02 02 2011\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+G:\My Work Directory\FloraCPS Tools 19 03 2011\FCPA 02 02 2011\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+G:\My Work Directory\FloraCPS Tools 19 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+G:\My Work Directory\FloraCPS Tools 19 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+G:\My Work Directory\FloraCPS Tools 19 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+G:\My Work Directory\FloraCPS Tools 19 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+G:\My Work Directory\FloraCPS Tools 19 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+D:\My Work Directory\BACH\FloraCPS Tools 31 03 2011\FCPA 02 02 2011\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+D:\My Work Directory\BACH\FloraCPS Tools 31 03 2011\FCPA 02 02 2011\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+D:\My Work Directory\BACH\FloraCPS Tools 31 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\My Work Directory\BACH\FloraCPS Tools 31 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+D:\My Work Directory\BACH\FloraCPS Tools 31 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+D:\My Work Directory\BACH\FloraCPS Tools 31 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+D:\My Work Directory\BACH\FloraCPS Tools 31 03 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+D:\My Work Directory\BACH\FloraCPS Tools 04 04 2011\FCPA 02 02 2011\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+D:\My Work Directory\BACH\FloraCPS Tools 04 04 2011\FCPA 02 02 2011\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+D:\My Work Directory\BACH\FloraCPS Tools 04 04 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\My Work Directory\BACH\FloraCPS Tools 04 04 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+D:\My Work Directory\BACH\FloraCPS Tools 04 04 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+D:\My Work Directory\BACH\FloraCPS Tools 04 04 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+D:\My Work Directory\BACH\FloraCPS Tools 04 04 2011\FCPA 02 02 2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+G:\My Work Directory\CPS 19-04-2011\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+G:\My Work Directory\CPS 19-04-2011\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+G:\My Work Directory\CPS 19-04-2011\TabStripControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+G:\My Work Directory\CPS 19-04-2011\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+G:\My Work Directory\CPS 19-04-2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+G:\My Work Directory\CPS 19-04-2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+G:\My Work Directory\CPS 19-04-2011\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+G:\My Work Directory\BACH\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+G:\My Work Directory\BACH\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+G:\My Work Directory\BACH\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+G:\My Work Directory\BACH\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+G:\My Work Directory\BACH\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+G:\My Work Directory\BACH\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+G:\My Work Directory\BACH\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+E:\Morshed\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+E:\Morshed\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+E:\Morshed\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Morshed\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+E:\Morshed\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+E:\Morshed\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+E:\Morshed\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+G:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+G:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+G:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+G:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+G:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+G:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+G:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+D:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+D:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+D:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+D:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+D:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+D:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+C:\Users\Morshed\Desktop\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+C:\Users\Morshed\Desktop\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+C:\Users\Morshed\Desktop\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Morshed\Desktop\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+C:\Users\Morshed\Desktop\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+C:\Users\Morshed\Desktop\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+C:\Users\Morshed\Desktop\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+G:\My Work Directory\ACH\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+G:\My Work Directory\ACH\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+G:\My Work Directory\ACH\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+G:\My Work Directory\ACH\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+G:\My Work Directory\ACH\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+G:\My Work Directory\ACH\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+G:\My Work Directory\ACH\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+D:\Projects\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+D:\Projects\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+D:\Projects\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+D:\Projects\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+D:\Projects\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+D:\Projects\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+E:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+E:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+E:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+E:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+E:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+E:\My Work Directory\CPS\FloraCPS_v2.1\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+E:\Update\20180207\Batch 2-Panini\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+E:\Update\20180207\Batch 2-Panini\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+E:\Update\20180207\Batch 2-Panini\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+E:\Update\20180207\Batch 2-Panini\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+E:\Update\20180207\Batch 2-Panini\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+E:\Update\20180207\Batch 2-Panini\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb
+F:\BANK SERVER BACK UP\NCC Bank\20180211\Batch 2-Panini\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.dll
+F:\BANK SERVER BACK UP\NCC Bank\20180211\Batch 2-Panini\TabStripControlLibrary\bin\Debug\TabStripControlLibrary.pdb
+F:\BANK SERVER BACK UP\NCC Bank\20180211\Batch 2-Panini\TabStripControlLibrary\obj\Debug\FloraSoft.TabstripLibrary.Properties.Resources.resources
+F:\BANK SERVER BACK UP\NCC Bank\20180211\Batch 2-Panini\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.csproj.GenerateResource.Cache
+F:\BANK SERVER BACK UP\NCC Bank\20180211\Batch 2-Panini\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.dll
+F:\BANK SERVER BACK UP\NCC Bank\20180211\Batch 2-Panini\TabStripControlLibrary\obj\Debug\TabStripControlLibrary.pdb

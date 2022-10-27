@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{77E04CF5-9819-4588-A92B-586CB247FB5E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChequeProcessing</RootNamespace>
+    <AssemblyName>ChequeProcessing</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>scan.ico</ApplicationIcon>
+    <Win32Resource>
+    </Win32Resource>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>6C354B86A7A7B193D7E535D72EC8ADC1AF578BEC</ManifestCertificateThumbprint>
+    <ManifestKeyFile>ChequeProcessing_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\admin\Desktop\CPS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\ChequeProcessing.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\ChequeProcessing.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.RANGERLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AxInterop.RANGERLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.RANGERLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.RANGERLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\BatchDatabak.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BatchDatabak.Designer.cs">
+      <DependentUpon>BatchDatabak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BatchData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BatchData.Designer.cs">
+      <DependentUpon>BatchData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ChequeData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ChequeData.Designer.cs">
+      <DependentUpon>ChequeData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CurrencyField.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CurrencyField.designer.cs">
+      <DependentUpon>CurrencyField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DateControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DateControl.Designer.cs">
+      <DependentUpon>DateControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImagePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ImagePanel.designer.cs">
+      <DependentUpon>ImagePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPObjects\SelectorListener.cs" />
+    <Compile Include="DBObjects\NRBService.cs" />
+    <Compile Include="DBObjects\PasswordPolicy.cs" />
+    <Compile Include="Lookups\Config.cs" />
+    <Compile Include="Lookups\IPList.cs" />
+    <Compile Include="Controls\MakerBatchData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MakerBatchData.Designer.cs">
+      <DependentUpon>MakerBatchData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NumericField.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NumericField.designer.cs">
+      <DependentUpon>NumericField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SplittedContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SplittedContainer.Designer.cs">
+      <DependentUpon>SplittedContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UserData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UserData.Designer.cs">
+      <DependentUpon>UserData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPObjects\Batch.cs" />
+    <Compile Include="CPObjects\BatchLockedExeption.cs" />
+    <Compile Include="CPObjects\BatchTraceListener.cs" />
+    <Compile Include="CPObjects\Cheque.cs" />
+    <Compile Include="CPObjects\ComboBoxItem.cs" />
+    <Compile Include="CPObjects\ComponentFocusListener.cs" />
+    <Compile Include="CPObjects\FileType.cs" />
+    <Compile Include="CPObjects\ImageConverter.cs" />
+    <Compile Include="CPObjects\ImageNavigateListener.cs" />
+    <Compile Include="CPObjects\MisplacedException.cs" />
+    <Compile Include="CPObjects\ScannerDriver.cs" />
+    <Compile Include="CPObjects\ScannerRangerListener.cs" />
+    <Compile Include="CPObjects\ScanSettingsListener.cs" />
+    <Compile Include="DBObjects\BanksDB.cs" />
+    <Compile Include="DBObjects\BatchDB.cs" />
+    <Compile Include="DBObjects\ChequesDB.cs" />
+    <Compile Include="DBObjects\ChkImgDB.cs" />
+    <Compile Include="DBObjects\DriversDB.cs" />
+    <Compile Include="DBObjects\SecurityDB.cs" />
+    <Compile Include="DBObjects\SettingsDB.cs" />
+    <Compile Include="DBObjects\UsersDB.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lookups\BatchOptions.cs" />
+    <Compile Include="Lookups\ChequeStatus.cs" />
+    <Compile Include="Lookups\ErrorTypes.cs" />
+    <Compile Include="Lookups\FileTypes.cs" />
+    <Compile Include="Lookups\ImageModes.cs" />
+    <Compile Include="Lookups\MICRValidIndicator.cs" />
+    <Compile Include="Lookups\SystemInfo.cs" />
+    <Compile Include="Lookups\SystemStatus.cs" />
+    <Compile Include="Lookups\TransCode.cs" />
+    <Compile Include="Lookups\UserRoles.cs" />
+    <Compile Include="Lookups\ViewOption.cs" />
+    <Compile Include="MakerCheckerScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MakerCheckerScreen.Designer.cs">
+      <DependentUpon>MakerCheckerScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\BatchBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\BatchBalance.designer.cs">
+      <DependentUpon>BatchBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\BulkEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\BulkEntry.Designer.cs">
+      <DependentUpon>BulkEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\CreateBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\CreateBatch.Designer.cs">
+      <DependentUpon>CreateBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\DepositSlipSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\DepositSlipSettings.Designer.cs">
+      <DependentUpon>DepositSlipSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\DuplicateCheckList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\DuplicateCheckList.Designer.cs">
+      <DependentUpon>DuplicateCheckList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\ForceChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\ForceChangePassword.designer.cs">
+      <DependentUpon>ForceChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\ImageSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\ImageSettings.Designer.cs">
+      <DependentUpon>ImageSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\InfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\OpenBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\OpenBatch.Designer.cs">
+      <DependentUpon>OpenBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\RoleSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\RoleSelector.Designer.cs">
+      <DependentUpon>RoleSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\ScannerRanger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\ScanSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\ScanSettings.Designer.cs">
+      <DependentUpon>ScanSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\SendToMaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\SendToMaker.Designer.cs">
+      <DependentUpon>SendToMaker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\ServerSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\ServerSelector.designer.cs">
+      <DependentUpon>ServerSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\SortBucket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popups\SortBucket.Designer.cs">
+      <DependentUpon>SortBucket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\LDAP.cs" />
+    <Compile Include="Web References\CPSWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Controls\BatchDatabak.resx">
+      <DependentUpon>BatchDatabak.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BatchData.resx">
+      <DependentUpon>BatchData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ChequeData.resx">
+      <DependentUpon>ChequeData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CurrencyField.resx">
+      <DependentUpon>CurrencyField.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DateControl.resx">
+      <DependentUpon>DateControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ImagePanel.resx">
+      <DependentUpon>ImagePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MakerBatchData.resx">
+      <DependentUpon>MakerBatchData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NumericField.resx">
+      <DependentUpon>NumericField.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SplittedContainer.resx">
+      <DependentUpon>SplittedContainer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UserData.resx">
+      <DependentUpon>UserData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MakerCheckerScreen.resx">
+      <DependentUpon>MakerCheckerScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\BatchBalance.resx">
+      <DependentUpon>BatchBalance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\BulkEntry.resx">
+      <DependentUpon>BulkEntry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\CreateBatch.resx">
+      <DependentUpon>CreateBatch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\DepositSlipSettings.resx">
+      <DependentUpon>DepositSlipSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\DuplicateCheckList.resx">
+      <DependentUpon>DuplicateCheckList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\ForceChangePassword.resx">
+      <DependentUpon>ForceChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\ImageSettings.resx">
+      <DependentUpon>ImageSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\OpenBatch.resx">
+      <DependentUpon>OpenBatch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\RoleSelector.resx">
+      <DependentUpon>RoleSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\ScannerRanger.resx">
+      <DependentUpon>ScannerRanger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\ScanSettings.resx">
+      <DependentUpon>ScanSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\SendToMaker.resx">
+      <DependentUpon>SendToMaker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\ServerSelector.resx">
+      <DependentUpon>ServerSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\SortBucket.resx">
+      <DependentUpon>SortBucket.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popups\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScannerScreen.resx">
+      <DependentUpon>ScannerScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ScannerScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScannerScreen.Designer.cs">
+      <DependentUpon>ScannerScreen.cs</DependentUpon>
+    </Compile>
+    <None Include="Web References\CPSWS\AccountInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CPSWS\AccountResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CPSWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\CPSWS\RetData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CPSWS\Service1.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\CPSWS\Service1.disco" />
+    <None Include="Resources\AmountImage1.JPG" />
+    <None Include="Resources\AmountImage.JPG" />
+    <None Include="Resources\ASPxLoader.gif" />
+    <None Include="Resources\B_click.png" />
+    <None Include="Resources\B_on.png" />
+    <None Include="Resources\background.png" />
+    <None Include="Resources\Balance.png" />
+    <None Include="Resources\BatchCreate.png" />
+    <None Include="Resources\BatchDel1 .png" />
+    <None Include="Resources\BatchDel.png" />
+    <None Include="Resources\BatchDiscard.png" />
+    <None Include="Resources\BatchLoad.png" />
+    <None Include="Resources\BatchNew1.png" />
+    <None Include="Resources\BatchNew.png" />
+    <None Include="Resources\BatchOpen.png" />
+    <None Include="Resources\BatchSave.png" />
+    <None Include="Resources\BatchSend.png" />
+    <None Include="Resources\CheckConnection.png" />
+    <None Include="Resources\CheckDel.png" />
+    <None Include="Resources\CheNotFound.png" />
+    <None Include="Resources\ChequeApprove.png" />
+    <None Include="Resources\ChequeDiscard.png" />
+    <None Include="Resources\ChequeHold.png" />
+    <None Include="Resources\ChequeSave copy.png" />
+    <None Include="Resources\ChequeSave.png" />
+    <None Include="Resources\ChequeSendBack.png" />
+    <None Include="Resources\ChequeUploaded.png" />
+    <None Include="Resources\ChequeViewAll.png" />
+    <None Include="Resources\Connect.png" />
+    <None Include="Resources\Connected.png" />
+    <None Include="Resources\Disconnect.png" />
+    <None Include="Resources\Exit.png" />
+    <None Include="Resources\ExTra copy.png" />
+    <None Include="Resources\ListView1.png" />
+    <None Include="Resources\ListView.png" />
+    <None Include="Resources\LoginPage.gif" />
+    <None Include="Resources\Logoff.png" />
+    <None Include="Resources\NotConnected.png" />
+    <None Include="Resources\Option.png" />
+    <None Include="Resources\Pause.png" />
+    <None Include="Resources\ScanConnection.png" />
+    <None Include="Resources\ScanConnectionCheck.png" />
+    <None Include="Resources\ScanPause.png" />
+    <None Include="Resources\ScanSetting.png" />
+    <None Include="Resources\ScanStart.png" />
+    <None Include="Resources\ScanStop.png" />
+    <None Include="Resources\ScanSuccessfully.png" />
+    <None Include="Resources\Setting.png" />
+    <None Include="Resources\Settings.png" />
+    <None Include="Resources\SomeError.png" />
+    <None Include="Resources\SortPullFrom.png" />
+    <None Include="Resources\SortSendTo.png" />
+    <None Include="Resources\SortShow.png" />
+    <None Include="Resources\Start.png" />
+    <None Include="Resources\Stop.png" />
+    <None Include="Resources\View.png" />
+    <None Include="Resources\ViewHor1.png" />
+    <None Include="Resources\ViewHor.png" />
+    <None Include="Resources\ViewHorVer.png" />
+    <Content Include="scan.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TabStripControlLibrary\TabStripControlLibrary.csproj">
+      <Project>{F63A0939-5ADD-4931-8066-6901B5FBEF67}</Project>
+      <Name>TabStripControlLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost/FloraRTGSWS/Service1.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\CPSWS\</RelPath>
+      <UpdateFromURL>http://localhost/FloraRTGSWS/Service1.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ChequeProcessing_CPSWS_Service1</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
